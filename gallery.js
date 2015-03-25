@@ -9,7 +9,7 @@ function supports_history_api() {
 function swapPhoto(href) {
   var req = new XMLHttpRequest();
   req.open("GET",
-           "http://localhost:1234/gallery/" +
+           "https://github.com/adrianvinuelas/X-Nav-5.7.18-HistoryAPI/tree/master/gallery/" +
              href.split("/").pop(),
            false);
   req.send(null);
